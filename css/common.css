@@ -1,0 +1,44 @@
+.container{
+    width: 1170px;
+    margin: 0px auto;
+}
+.container-fluid{
+    width: 100%;
+}
+
+/* common-class */
+.flex {
+    display: flex;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-flex-end{
+    justify-content: flex-end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
+.position-relative {
+    position: relative;
+}
+.position-absolute {
+    position: absolute;
+}
+.overflow-hidden {
+    overflow:hidden;
+}

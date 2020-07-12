@@ -1,0 +1,41 @@
+/* top-nav-bar */
+#top-nav-bar{
+    background:#fcfcfc;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 15px 0px;
+}
+.service-number i{
+color: #0392ce;
+font-size: 18px;
+}
+.service-number span {
+    margin-left: 5px;
+    color:#848484;
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+}
+.icons {
+    margin: 0px;
+    list-style-type: none;
+}
+.icons li {
+    margin: 0px 15px;
+}
+.icons li a{
+    color: #848484;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+.icons li a:hover{
+    color: #0392ce;
+}
+
+/* call-adress */
+#hospital-about{
+    background:#ffffff;
+    padding: 28px 0px;
+}
+.adres-call-info li{
+    list-style-type: none;
+}
