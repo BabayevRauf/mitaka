@@ -15,6 +15,10 @@
     flex-direction: column;
 }
 
+.flex-direction-row {
+    flex-direction: row;
+}
+
 .justify-content-between {
     justify-content: space-between;
 }
@@ -26,19 +30,43 @@
 .justify-content-center {
     justify-content: center;
 }
+
 .justify-content-around {
     justify-content: space-around;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+
+.flex-wrap-wrap {
+    flex-wrap: wrap;
 }
 
 .align-items-center {
     align-items: center;
 }
+
+.align-items-flex-end {
+    align-items: flex-end;
+}
+
 .position-relative {
     position: relative;
 }
+
 .position-absolute {
     position: absolute;
 }
+
 .overflow-hidden {
     overflow:hidden;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
 }

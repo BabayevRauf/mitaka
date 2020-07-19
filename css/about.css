@@ -1,0 +1,602 @@
+/* page[about-us] */
+
+/* top-nav-bar */
+
+#top-nav-bar{
+    background:#fcfcfc;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 15px 0px;
+}
+.service-number i{
+color: #0392ce;
+font-size: 18px;
+}
+.service-number span {
+    margin-left: 5px;
+    color:#848484;
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+}
+.icons {
+    margin: 0px;
+    list-style-type: none;
+}
+.icons li {
+    margin: 0px 15px;
+}
+.icons li a{
+    color: #848484;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+.icons li a:hover{
+    color: #0392ce;
+}
+
+/* call-adress */
+
+#hospital-about{
+    background:#ffffff;
+    padding: 28px 0px;
+}
+.call-adress-info{
+    width: 95%;
+}
+.info-one{
+    width: 215px;
+    position: relative;
+}
+.info-one i{
+    color: #0392ce;
+    font-size: 55px;
+    margin-left: 30px;
+}
+.info-one h3{
+    position: absolute;
+    top: 0px;
+    right: 55px;
+    color: #0392ce;
+    font-size: 16px;
+}
+.info-one span{
+    position: absolute;
+    left: 68px;
+    bottom: 5px;
+    color: #848484;
+    font-size: 16px;
+}
+.info-two{
+    width: 255px;
+    position: relative;
+    border-left: 1px solid #f0f0f0;
+    border-right:1px solid #f0f0f0;
+}
+.info-two i{
+    color: #0392ce;
+    font-size: 50px;
+    margin-left: 25px;
+}
+.info-two h3{
+    position: absolute;
+    top: 0px;
+    left: 65px;
+    color: #0392ce;
+    font-size: 16px;
+}
+.info-two span{
+    position: absolute;
+    left: 65px;
+    bottom: 5px;
+    color: #848484;
+    font-size: 16px;
+}
+.info-three{
+    width: 300px;
+    position: relative;
+}
+.info-three i{
+    color: #0392ce;
+    font-size: 45px;
+    margin: 3px 0px 0px 25px;
+}
+.info-three h3{
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    color:#0392ce;
+}
+.info-three span{
+    position: absolute;
+    bottom: 6px;
+    left: 80px;
+    color: #848484;
+}
+.info-three a button{
+    position: absolute;
+    right: -62px;
+    top: 0px;
+    padding: 18px;
+    background: #ffffff;
+    color: #848484;
+    border: 1px solid #f0f0f0;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.info-three a button:hover{
+    color: #fcfcfc;
+    background: #0392ce;
+}
+
+/* menu-bar */
+
+#menu-bar{
+    padding: 15px 0px;
+    background: #ffffff;
+    border-top: 1px solid #f0f0f0;
+}
+.menu-list ul li{
+    list-style-type: none;
+}
+.menu-list ul li a span{
+    color: #0392ce;
+    font-size: 18px;
+}
+.menu-list ul li a{
+    color: #222222;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: all 500ms ease 0s;
+    padding: 31px 0px;
+}
+.menu-list ul li a:hover{
+    color: #0392ce;
+    border-top: 1px solid #0392ce;
+}
+.click-menu{
+    position: absolute;
+    top: -17px;
+    right: 0px;
+    padding: 30px 50px;
+    border: 2px solid #0392ce;
+    background: #0392ce;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.click-menu a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.click-menu:hover {
+    background:#222222;
+    color:#fff;
+}
+
+/* about-us */
+
+#about-us{
+    height: 310px;
+    background: url(../images/0101.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.about-us-taq{
+    position: absolute;
+    top: 43%;
+    left: 43%;
+}
+.about-us-taq h1{
+    color: #222222;
+    font-size: 48px;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+/* welcome-to-the-hospital */
+
+#wtth{
+    height: 485px;
+    margin-top: 80px;
+}
+.image-holder{
+   width: 97%;
+   height: 485px;
+   position: relative;
+}
+.image-holder img{
+    height: 485px;
+    width: 97%;
+   object-fit: cover;
+}
+.image-holder-info{
+    background-color: #0392ce;
+    position: absolute;
+    bottom: 0px;
+    width: 97%;
+    height: 80px;
+}
+.image-holder-info p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.wtth-heading h1{
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 400;
+    margin: 0 0 25px;
+}
+.wtth-heading p{
+    font-size: 16px;
+    color: #848484;
+    line-height: 26px;
+    font-weight: 300;
+}
+.our-mission i{
+    font-size: 35px;
+    color: #0392ce;
+}
+.our-mission h3{
+    margin: -39px 0px 0px 48px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #222222;
+}
+.our-mission-bottom{
+    margin-top: 30px;
+}
+.our-mission-bottom i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.our-mission-bottom ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.our-mission-bottom ul li{
+    margin-bottom: 10px;
+}
+.our-mission-bottom span{
+    font-size: 16px;
+    color: #848484;
+    line-height: 26px;
+    font-weight: 300;
+}
+.our-departments{
+    margin-top: 44px;
+    height: 35px;
+}
+.our-departments a{
+    text-decoration: none;
+    color: #222222;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid #f0f0f0;
+    border-radius: 20px;
+    padding: 12px 25px 10px;
+    transition: all 500ms ease;
+}
+.our-departments a:hover{
+    background: #0392ce;
+    color: #fff;
+}
+
+/* doctor-section */
+
+#doctor-section{
+    padding: 80px 0px 80px 0px;
+}
+.heading{
+    padding-bottom: 50px;
+}
+.heading h1{
+    color: #222222;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: capitalize;
+    margin: 0px 0px 16px;
+}
+.sec-tittle-border {
+    position: relative;
+    overflow: hidden;
+    height: 1px;
+    background: #f0f0f0;
+    display: block;
+}
+.sec-tittle-border:before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 70px;
+    height: 1px;
+    background: #0392ce;
+    content: "";
+}
+.doctor-item{
+    position: relative;
+    overflow: hidden;
+}
+.doctor-item img{
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+}
+.doctor-item-text-name{
+    width: 270px;
+    height: 80px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom:0px;
+    opacity: 1;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+    transition: all 0.9s ease; 
+}
+.doctor-item:hover .doctor-item-text-name{
+    bottom:-80px;
+    opacity: 0;
+}
+.doctor-item-text-name h3{
+    color: #222222;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.doctor-item-text-name span{
+    color: #0392ce;
+    font-size: 16px;
+}
+.doctor-item-call-info{
+    position: absolute;
+    top:-140px;
+    width: 270px;
+    height: 271px;
+    background-color: rgba(0, 0, 0, 0.85);
+    opacity: 0;
+    transition: all 0.9s ease 0.4s;
+}
+.doctor-item:hover .doctor-item-call-info{
+    top: 0px;
+    opacity: 1;
+}
+.slide-item-name{
+    width: 90%;
+    height: 60px;
+}
+.slide-item-call{
+    width: 90%;
+    height: 60px;
+}
+.slide-item-name h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 5px;
+}   
+.slide-item-name span{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.slide-item-call h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.slide-item-call span{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.slide-item-call i{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 30px 10px 0px 0px;
+}
+
+/*fact-counter-area*/
+#fact-counter-area{
+    background-color:#0392ce;
+    padding: 80px 0px 0px 0px;
+}
+.area-heading-text h1{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #ffffff;
+    margin: 0px 0px 16px;
+}
+.area-heading-text p{
+    color: #f1f1f1;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 0px 120px;
+}
+.static-area{
+    padding: 15px 0px 40px;
+}
+.static-area ul li i{
+    font-size: 75px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.static-area ul{
+    list-style-type: none;
+    padding: 0px;
+    border-left: 1px solid #29a1d4;
+    border-right: 1px solid #29a1d4;
+}
+.static-area ul li{
+    margin: 15px;
+}
+.static-area ul li span{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+}
+.static-area ul li h3{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+/* footer-area */
+
+#footer-area{
+    background-color: #222222;
+    padding: 80px 0px 40px 0px;
+}
+.footer-area-heading h3{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0px 0px 16px;
+}
+.sec-tittle{
+    position: relative;
+    overflow: hidden;
+    height: 1px;
+    background: #222222;
+    display: block;
+}
+.sec-tittle:before{
+    position: absolute;
+    top: 0px;
+    width: 70px;
+    height: 1px;
+    background: #2f3132;
+    content: "";
+}
+.footer-area-text{
+    margin: 40px 0px 0px;
+}
+.footer-area-text p{
+    color: #848484;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0px 0px 20px;
+}
+.footer-area-click a{
+    text-decoration:none;
+    color: #0392ce;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 500ms ease;
+}
+.footer-area-click a:hover{
+    color: #848484;
+}
+.footer-area-click span{
+    margin-left: 5px;
+}
+.footer-area-item{
+    margin:0px 55px 0px 55px;
+}
+.footer-area-about{
+    height:225px;
+    margin-top: 40px;
+}
+.note{
+    margin-bottom: 17px;
+    border-bottom: 1px solid #2f3132;
+}
+.note i{
+    font-size: 33px;
+    margin-right:15px;
+    color: #0392ce;
+    margin-bottom: 10px;
+}
+.note span{
+    color: #848484;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    font-family: 'Hind', sans-serif;
+    margin-bottom: 10px;
+}
+.your-data{
+    height: 280px;
+    margin-top: 40px;
+}
+.your-taq{
+    height: 40px;
+    width: 75%;
+    border: 1px solid #2f3132;
+}
+.your-mail{
+    height: 40px;
+    width: 75%;
+    margin: 10px 0px;
+    border: 1px solid #2f3132;
+}
+.your-message{
+    height: 74px;
+    width: 75%;
+    border: 1px solid #2f3132;
+}
+.submit{
+    margin: 20px 0px;
+}
+.submit a{
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 1px solid #2e2e2e;
+    background: #2e2e2e none repeat scroll 0 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 500ms ease 0s;
+}
+.submit a:hover{
+    background: #0392ce;
+    border-color: #ffffff;
+}
+
+/* footer-bottom-area */
+
+#footer-bottom-area{
+    background: #1d1d1d;
+}
+.copyright-text p{
+    color: #949494;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+.footer-social-link ul{
+    list-style-type: none;
+}
+.footer-social-link ul li a span{
+    color:#949494;
+    padding: 10px;
+    font-size: 16px;
+    background:#1d1d1d;
+    border-radius: 50%;
+    border-color: #fff;
+    transition: all 0.5s ease 0s; 
+}
+.footer-social-link ul li a span:hover{
+    color: #ffffff;
+    background: #0392ce;
+    transform: rotate(360deg);
+}

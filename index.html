@@ -2,15 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/main.css">
-  <title>mitaka hospital</title>
+  <title>Mitaka-Hospital</title>
 </head>
 <body>
+  <!-- page[home] -->
+
   <!-- top-nav-bar -->
   <section id="top-nav-bar">
   <div class="container">
@@ -24,7 +27,7 @@
       <div class="col-3">
         <div class="row">
             <div class="social-icons">
-              <ul class="icons flex justify-content-flex-end">
+              <ul class="icons flex justify-content-between">
                 <li>
                   <a class="fa fa-facebook" aria-hidden="true"></a>
                 </li>
@@ -60,19 +63,28 @@
         </div>
         <div class="col-9">
            <div class="container-fluid">
-            <div class="adres-call-info">
-              <ul class="flex justify-content-around">
-                <li>
-                  <span>call us now</span>
-                </li>
-                <li>
-                  <span>call us now</span>
-                </li>
-                <li>
-                  <span>call us now</span>
-                </li>
-              </ul>
-            </div>
+              <div class="row flex justify-content-flex-end">
+                <div class="call-adress-info flex">
+                    <div class="info-one">
+                      <i class="fa fa-mobile" aria-hidden="true"></i>
+                      <h3>Call us now</h3>
+                      <span>+1-888-987-6543</span>
+                    </div>
+                    <div class="info-two">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                      <h3>121 Park Drive</h3>
+                      <span>Varick St, Newyork 1006</span>
+                    </div>
+                    <div class="info-three">
+                      <i class="fa fa-calendar" aria-hidden="true"></i>
+                      <h3>Mon - Satday</h3>
+                      <span>09.00am to 18.00pm</span>
+                      <a>
+                        <button class="fa fa-search" aria-hidden="true"></button>
+                      </a>
+                    </div>
+                </div>
+              </div>
            </div> 
         </div>
       </div>
@@ -80,6 +92,809 @@
   </section>
 <!-- menu-bar -->
 <section id="menu-bar">
+  <div class="container">
+    <div class="row flex">
+      <div class="col-9">
+        <div class="menu-list">
+          <ul class="flex justify-content-between">
+            <li class="active">
+              <a href="#">home</a>
+            </li>
+            <li>
+              <a href="#">about us</a>
+            </li>
+            <li>
+              <a href="#">departments</a>
+            </li>
+            <li>
+              <a href="#">news</a>
+            </li>
+            <li>
+              <a href="#">contact us</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa fa-globe" aria-hidden="true"></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="container-fluid flex justify-content-flex-end position-relative">
+          <div class="click-menu">
+          <a href="#">for consultation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- slider -->
+<section id="slider">
+  <div class="slider-arrows flex justify-content-between">
+    <div class="left-arrow cursor-pointer">
+      <span class="fa fa-chevron-left" aria-hidden="true"></span>
+    </div>
+    <div class="right-arrow cursor-pointer">
+      <span class="fa fa-chevron-right" aria-hidden="true"></span>
+    </div>
+  </div>
+  <div class="slider-content flex flex-direction-column justify-content-around align-items-center">
+    <div class="support-heading">
+      <h1>hospitals providing total healthcare solutions.</h1>
+  </div>
+  <div class="support-text">
+    <p>Denouncing pleasure and praising pain was born and we will give you a complete account of the system. 
+    </p>
+</div>
+<div class="support-click">
+  <button class="departments cursor-pointer">DEPARTMENTS</button>
+  <button class="readmore cursor-pointer">READ MORE</button>
+</div>
+  </div>
+
+</section>
+<!-- make-an-appointment -->
+<section id="make-an-appointment">
+  <div class="container">
+    <div class="row flex justify-content-between">
+      <div class="col-3">
+        <div class="appointment">
+          <span class="fa fa-calendar" aria-hidden="true"></span>
+          <h3>Make an Appointment</h3>
+        </div>
+      </div>
+      <div class="col-9">
+        <div class="container-fluid">
+          <div class="row flex justify-content-between">
+            <div class="col-5">
+              <div class="select-doctor-info flex flex-direction-column justify-content-space-evenly align-items-flex-end">
+                <div class="your-name"></div>
+                <div class="select-doctor"></div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="select-doctor-info flex flex-direction-column justify-content-space-evenly align-items-flex-end">
+                <div class="select-department"></div>
+              <div class="select-date"></div>
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="click">
+                <a href="#"><span class="fa fa-paper-plane" aria-hidden="true"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- medical-departments -->
+<section id="medical-departments">
+  <div class="container">
+     <div class="departments-about flex flex-direction-column">
+       <div class="departments-headline">
+         <h1>medical departments</h1>
+         <div class="sec-tittle">
+           <span class="sec-tittle-border"></span>
+         </div>
+         <div class="headline-left-arrow">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+         </div>
+         <div class="headline-right-arrow">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+         </div>
+       </div>
+       <div class="department-items flex justify-content-between">
+         <div class="col-3">
+           <div class="items flex flex-direction-column justify-content-flex-end">
+             <div class="item flex justify-content-around align-items-center">
+              <div class="item-element">
+                <div class="item-element-image">
+                  <img src="images/yeni1.jpg" alt="">
+                  <div class="image-slide-blue"></div>
+                </div>
+                <div class="item-element-text">
+                  <h3>Neurology</h3>
+                  <p>Who chooses to enjoy a pleasure that has annoying consquences, or one who avoids a pain.</p>
+                </div>
+                <div class="item-element-click">
+                  <a href="#">read more</a>
+                </div>
+              </div>
+             </div>
+           </div>
+         </div>
+         <div class="col-3">
+          <div class="items flex flex-direction-column justify-content-flex-end">
+            <div class="item flex justify-content-around align-items-center">
+              <div class="item-element">
+                <div class="item-element-image">
+                  <img src="images/yeni10.jpg" alt="">
+                  <div class="image-slide-blue"></div>
+                </div>
+                <div class="item-element-text">
+                  <h3>Pulmonolgy</h3>
+                  <p>Who chooses to enjoy a pleasure that has annoying consquences, or one who avoids a pain.</p>
+                </div>
+                <div class="item-element-click">
+                  <a href="#">read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+         <div class="col-3">
+          <div class="items flex flex-direction-column justify-content-flex-end">
+            <div class="item flex justify-content-around align-items-center">
+              <div class="item-element">
+                <div class="item-element-image">
+                  <img src="images/yeni5.jpg" alt="">
+                  <div class="image-slide-blue"></div>
+                </div>
+                <div class="item-element-text">
+                  <h3>Dentist</h3>
+                  <p>Who chooses to enjoy a pleasure that has annoying consquences, or one who avoids a pain.</p>
+                </div>
+                <div class="item-element-click">
+                  <a href="#">read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+         <div class="col-3">
+          <div class="items flex flex-direction-column justify-content-flex-end">
+            <div class="item flex justify-content-around align-items-center">
+              <div class="item-element">
+                <div class="item-element-image">
+                  <img src="images/yeni4.jpg" alt="">
+                  <div class="image-slide-blue"></div>
+                </div>
+                <div class="item-element-text">
+                  <h3>Cardiology</h3>
+                  <p>Who chooses to enjoy a pleasure that has annoying consquences, or one who avoids a pain.</p>
+                </div>
+                <div class="item-element-click">
+                  <a href="#">read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+       </div>
+     </div>
+  </div>
+</section>
+<!-- our-best-services -->
+<section id="our-best-services">
+  <div class="container">
+    <div class="row flex justify-content-between">
+      <div class="col-4">
+        <div class="our-best-services-info">
+          <div class="our-best-services-image">
+            <img src="images/004.jpg" alt="">
+            <div class="our-best-services-image-text">
+              <h3>As a tertiary referral ICU to provide state of the art care with the help of very good professionals and infrastructure.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="container-fluid">
+          <div class="laboratory-about flex flex-direction-column">
+            <div class="laboratory-about-heading">
+              <h1>our best services</h1>
+              <div class="laboratory-about-heading-border"></div>
+            </div>
+            <div class="laboratory-about-text-img flex justify-content-between align-items-center">
+              <div class="laboratory-about-text">
+                <div class="analysis-heading">
+                  <h3>Laboratory Analysis</h3>
+                </div>
+                <div class="analysis-text">
+                  <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and the master-builder of human happiness. Expound the actual teachings of the great explorer of the truth.</p>
+                  <a href="#">read more</a>
+                </div>
+              </div>
+              <div class="laboratory-about-image"></div>
+            </div>
+            <div class="laboratory-about-items">
+              <div class="container-fluid">
+                <div class="row flex justify-content-between">
+                  <div class="col-3">
+                    <div class="laboratory-item">
+                      <div class="laboratory-item-slide text-align-center">
+                        <span class="fa fa-plus" aria-hidden="true"></span>
+                      </div>
+                      <img src="images/008.jpg" alt="">
+                      <div class="laboratory-item-name">
+                        <h3>laboratory</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <div class="laboratory-item">
+                      <div class="laboratory-item-slide text-align-center">
+                        <span class="fa fa-plus" aria-hidden="true"></span>
+                      </div>
+                      <img src="images/teze.jpg" alt="">
+                      <div class="laboratory-item-name">
+                        <h3>Opthalmology</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <div class="laboratory-item">
+                      <div class="laboratory-item-slide text-align-center">
+                        <span class="fa fa-plus" aria-hidden="true"></span>
+                      </div>
+                      <img src="images/teze1.jpg" alt="">
+                      <div class="laboratory-item-name">
+                        <h3>Cardiac</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <div class="laboratory-item">
+                      <div class="laboratory-item-slide text-align-center">
+                        <span class="fa fa-plus" aria-hidden="true"></span>
+                      </div>
+                      <img src="images/009.jpg" alt="">
+                      <div class="laboratory-item-name">
+                        <h3>OutPatient</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- doctor-section -->
+<section id="doctor-section">
+ <div class="container">
+  <div class="heading">
+    <h1>team of consultants</h1>
+    <div class="sec-tittle-border"></div>
+  </div>
+  <div class="doctor-items">
+    <div class="row flex justify-content-between">
+      <div class="col-3">
+        <div class="doctor-item">
+          <img src="images/sekil4.jpg" alt="">
+          <div class="doctor-item-call-info flex flex-direction-column align-items-center justify-content-center">
+            <div class="slide-item-name ">
+              <h3>Marc Parcival</h3>
+              <span>New York</span>
+            </div>
+            <div class="slide-item-call">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span> +321-567-89-0123</span>
+            </div>
+          </div>
+          <div class="doctor-item-text-name">
+            <h3>Marc Parcival</h3>
+            <span>new york</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="doctor-item">
+          <img src="images/sekil.jpg" alt="">
+          <div class="doctor-item-call-info flex flex-direction-column align-items-center justify-content-center">
+            <div class="slide-item-name ">
+              <h3>Marc Parcival</h3>
+              <span>New York</span>
+            </div>
+            <div class="slide-item-call">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span> +321-567-89-0123</span>
+            </div>
+          </div>
+          <div class="doctor-item-text-name">
+            <h3>Alen Bailey</h3>
+            <span>new york</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="doctor-item">
+            <img src="images/sekil1.jpg" alt="">
+          <div class="doctor-item-call-info flex flex-direction-column align-items-center justify-content-center">
+            <div class="slide-item-name ">
+              <h3>Marc Parcival</h3>
+              <span>New York</span>
+            </div>
+            <div class="slide-item-call">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span> +321-567-89-0123</span>
+            </div>
+          </div>
+          <div class="doctor-item-text-name">
+            <h3>Basel Andrew</h3>
+            <span>new york</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="doctor-item">
+          <img src="images/01.jpg" alt="">
+          <div class="doctor-item-call-info flex flex-direction-column align-items-center justify-content-center">
+            <div class="slide-item-name ">
+              <h3>Marc Parcival</h3>
+              <span>New York</span>
+            </div>
+            <div class="slide-item-call">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span> +321-567-89-0123</span>
+            </div>
+          </div>
+          <div class="doctor-item-text-name">
+            <h3>Edgar Denzil</h3>
+            <span>new york</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   </div>
+ </div>
+</section>
+<!-- fact-counter-area -->
+<section id="fact-counter-area">
+ <div class="container">
+   <div class="row">
+     <div class="area-heading-text text-align-center">
+       <h1>Keep Your Headup & Be Patient</h1>
+       <p>How all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the
+        system and expound the actual teachings of the great.
+        </p>
+     </div>
+   </div>
+   <div class="row flex">
+      <div class="col-3">
+        <div class="static-area text-align-center">
+         <ul>
+           <li>
+             <i class="fa fa-h-square" aria-hidden="true"></i>
+            </li>
+           <li>
+             <span>25</span>
+          </li>
+           <li>
+             <h3>Years Of Experience</h3>
+            </li>
+         </ul>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="static-area text-align-center">
+          <ul>
+            <li>
+              <i class="fa fa-smile-o" aria-hidden="true"></i>
+             </li>
+            <li>
+              <span>284</span>
+           </li>
+            <li>
+              <h3>Well Smiley Faces</h3>
+             </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="static-area text-align-center">
+          <ul>
+            <li>
+              <i class="fa fa-heartbeat" aria-hidden="true"></i>
+             </li>
+            <li>
+              <span>176</span>
+           </li>
+            <li>
+              <h3>Heart Transplant</h3>
+             </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="static-area text-align-center">
+          <ul>
+            <li>
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+             </li>
+            <li>
+              <span>142</span>
+           </li>
+            <li>
+              <h3>Awards Holded</h3>
+             </li>
+          </ul>
+        </div>
+      </div>
+   </div>
+ </div>
+</section>
+<!-- customer-testimonials -->
+<section id="customer-testimonials">
+  <div class="container">
+    <div class="row">
+      <div class="testimonials-heading text-align-center">
+        <h1>What Our Clients Say</h1>
+        <span class="border"></span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="container-fluid">
+          <div class="col-12">
+            <div class="testimonial-items flex justify-content-between">
+              <div class="testimonial-item text-align-center">
+                <div class="testimonial-item-image">
+                  <img src="images/5.png" alt="">
+                </div>
+                <div class="testimonial-item-text ">
+                  <p>Mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete</p>
+                </div>
+                <div class="testimonial-item-info">
+                  <h3>Rossy Miranda</h3>
+                  <span>New York</span>
+                </div>
+              </div>
+              <div class="testimonial-item text-align-center">
+                <div class="testimonial-item-image">
+                  <img src="images/6.png" alt="">
+                </div>
+                <div class="testimonial-item-text ">
+                  <p>Mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete</p>
+                </div>
+                <div class="testimonial-item-info">
+                  <h3>Peter Lavrence</h3>
+                  <span>New York</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- faqs -->
+  <section id="faqs">
+    <div class="container">
+      <div class="row">
+        <div class="faqs-heading text-align-center">
+          <h1>Photo Gallery & FAQ’s</h1>
+          <span class="border"></span>
+        </div>
+      </div>
+      <div class="row flex justify-content-between">
+        <div class="col-6">
+          <div class="faqs-gallery flex flex-wrap-wrap justify-content-between">
+            <div class="gallery-item">
+              <div class="gallery-item-slide"></div>
+              <img src="images/p2.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+               <div class="gallery-item-slide"></div>
+              <img src="images/p3.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+               <div class="gallery-item-slide"></div>
+              <img src="images/p4.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+               <div class="gallery-item-slide"></div>
+              <img src="images/p5.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+               <div class="gallery-item-slide"></div>
+              <img src="images/p6.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+               <div class="gallery-item-slide"></div>
+              <img src="images/p7.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="faqs-info">
+            <div class="faqs-item">
+              <ul class="flex">
+                <li>
+                  <a href="#">
+                    <span class="fa fa-long-arrow-right" aria-hidden="true"></span>
+                  </a>
+                </li>
+                <li>
+                  <h3>Where is the hospital located?</h3>
+                </li>
+              </ul>
+            </div>
+            <div class="faqs-item">
+              <ul class="flex">
+                <li>
+                  <a href="#">
+                    <span class="fa fa-long-arrow-right" aria-hidden="true"></span>
+                  </a>
+                </li>
+                <li>
+                  <h3>What is the deposit amount for admission?</h3>
+                </li>
+              </ul>
+            </div>
+            <div class="faqs-item">
+              <ul class="flex">
+                <li>
+                  <a href="#">
+                    <span class="fa fa-long-arrow-right" aria-hidden="true"></span>
+                  </a>
+                </li>
+                <li>
+                  <h3>What are the visiting hours?</h3>
+                </li>
+              </ul>
+            </div>
+            <div class="faqs-item">
+              <ul class="flex">
+                <li>
+                  <a href="#">
+                    <span class="fa fa-long-arrow-right" aria-hidden="true"></span>
+                  </a>
+                </li>
+                <li>
+                  <h3>How many visitors are allowed at a time?</h3>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- latest-blog-post -->
+<section id="latest-blog-post">
+<div class="container">
+  <div class="row">
+    <div class="latest-blog-heading">
+      <h1>Latest From Blog</h1>
+      <span class="sec-tittle-border"></span>
+    </div>
+  </div>
+  <div class="row flex justify-content-between">
+    <div class="col-4">
+      <div class="latest-blog-post-items flex justify-content-center align-items-center">
+        <div class="post-item">
+          <div class="post-item-image overflow-hidden">
+            <img src="images/1410.jpg" alt="">
+            <div class="post-item-image-slide text-align-center">
+              <span class="fa fa-plus" aria-hidden="true"></span>
+            </div>
+          </div>
+          <div class="post-item-headline overflow-hidden">
+              <h3>How to handle your kids’ from mystery ailments</h3>
+          </div>
+          <div class="post-item-text overflow-hidden">
+            <p>The great explorer of the truth, master builder of human happiness one rejects, dislikes, or avoids pleasure itself because it is ...</p>
+          </div>
+          <div class="post-item-date">
+            <ul class="flex">
+              <li>
+                <a href="#">
+                  <i class="fa fa-calendar" aria-hidden="true"></i>
+                  <span>iyul 24,2020</span>
+                </a>
+              </li>
+              <li>
+               <a href="#">
+                <i class="fa fa-comments-o" aria-hidden="true"></i>
+                <span>0 comment</span>
+               </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="latest-blog-post-items flex justify-content-center align-items-center">
+        <div class="post-item">
+          <div class="post-item-image overflow-hidden">
+            <img src="images/1411.jpg" alt="">
+            <div class="post-item-image-slide text-align-center">
+              <span class="fa fa-plus" aria-hidden="true"></span>
+            </div>
+          </div>
+          <div class="post-item-headline overflow-hidden">
+            <h3>Negative statin stories add to heart health risk</h3>
+          </div>
+          <div class="post-item-text overflow-hidden">
+            <p>There anyone who loves or pursues or desires to obtain pains of itself, because it is pain because occasionally circumstances occur.</p>
+          </div>
+          <div class="post-item-date">
+            <ul class="flex">
+              <li>
+                <a href="#">
+                  <i class="fa fa-calendar" aria-hidden="true"></i>
+                  <span>iyul 24,2020</span>
+                </a>
+              </li>
+              <li>
+               <a href="#">
+                <i class="fa fa-comments-o" aria-hidden="true"></i>
+                <span>0 comment</span>
+               </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="latest-blog-post-items flex justify-content-center align-items-center">
+        <div class="post-item">
+          <div class="post-item-image overflow-hidden">
+            <img src="images/1412.jpg" alt="">
+            <div class="post-item-image-slide text-align-center">
+              <span class="fa fa-plus" aria-hidden="true"></span>
+            </div>
+          </div>
+          <div class="post-item-headline overflow-hidden">
+            <h3>Lung cancer survival rate in England improves</h3>
+          </div>
+          <div class="post-item-text overflow-hidden">
+            <p>Which toil and pain can procure him some great pleasure. To take a trivial example, which of us laborious physical exercise.</p>
+          </div>
+          <div class="post-item-date">
+            <ul class="flex">
+              <li>
+                <a href="#">
+                  <i class="fa fa-calendar" aria-hidden="true"></i>
+                  <span>iyul 24,2020</span>
+                </a>
+              </li>
+              <li>
+               <a href="#">
+                <i class="fa fa-comments-o" aria-hidden="true"></i>
+                <span>0 comment</span>
+               </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- footer-area -->
+<section id="footer-area">
+<div class="container">
+  <div class="row flex flex-direction-row">
+    <div class="col-4">
+      <div class="footer-area-item">
+        <div class="footer-area-heading">
+          <h3>about mitaka</h3>
+          <span class="sec-tittle"></span>
+        </div>
+        <div class="footer-area-text overflow-hidden">
+          <p>The relentless service of Hospitals in the past 25 years taken health care to the most modern levels in the region catering to urban & rural.</p>
+          <p>A Health Care Provider of Western Approach, Hospitals is the most trusted multispecialty hospital.</p>
+        </div>
+        <div class="footer-area-click">
+          <a href="#">
+            know more
+            <span class="fa fa-caret-right" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="footer-area-item">
+        <div class="footer-area-heading">
+          <h3>Contact Details</h3>
+          <span class="sec-tittle"></span>
+        </div>
+          <div class="footer-area-about">
+          <div class="note">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            <span>Park Drive, Varick Str New York,</span>
+          </div>
+          <div class="note">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <span>Getwell@Hospitals.com</span>
+          </div>
+          <div class="note">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <span>(123)-0200-12345-&-7890</span>
+          </div>
+          <div class="note">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            <span>Mon-Satday: 9am to 18pm</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="footer-area-item">
+        <div class="footer-area-heading">
+          <h3>Make An Appointment</h3>
+          <span class="sec-tittle"></span>
+        </div>
+        <div class="your-data">
+          <div class="your-taq overflow-hidden"></div>
+          <div class="your-mail overflow-hidden"></div>
+          <div class="your-message overflow-hidden"></div>
+          <div class="submit"><a href="#">submit</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- footer-bottom-area -->
+<section id="footer-bottom-area">
+<div class="container">
+  <div class="row flex justify-content-between">
+    <div class="col-7">
+      <div class="copyright-text">
+        <p>
+          Copyrights © 2020 All Rights Reserved, Powered by
+           <span class="hospital-click">Hospitals.</span>
+        </p>
+      </div>
+    </div>
+    <div class="col-5">
+      <div class="footer-social-link">
+        <ul class="flex justify-content-space-evenly">
+          <li>
+            <a href="#"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-twitter" aria-hidden="true"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-google-plus" aria-hidden="true"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-pinterest" aria-hidden="true"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 </section>
 </body>
 </html>

@@ -1,13 +1,12 @@
 body,
 h1,
 h2,
-h3{
+h3,
+h5{
     margin: 0px;
     padding: 0px;
 }
-h1 h2 h3 {
-    cursor: text;
-}
 h1,h2,h3,h4{
+    cursor: text;
     font-family: 'Poppins', sans-serif;
 }
