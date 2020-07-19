@@ -435,8 +435,7 @@ font-size: 18px;
 .static-area ul{
     list-style-type: none;
     padding: 0px;
-    border-left: 1px solid #29a1d4;
-    border-right: 1px solid #29a1d4;
+
 }
 .static-area ul li{
     margin: 15px;
@@ -537,7 +536,6 @@ font-size: 18px;
 }
 .your-taq{
     height: 40px;
-<<<<<<< HEAD
     width: 85%;
 }
 .your-mail{
@@ -548,21 +546,15 @@ font-size: 18px;
 .your-message{
     height: 74px;
     width: 85%;
-=======
-    width: 75%;
-    border: 1px solid #2f3132;
 }
 .your-mail{
     height: 40px;
     width: 75%;
     margin: 10px 0px;
-    border: 1px solid #2f3132;
 }
 .your-message{
     height: 74px;
     width: 75%;
-    border: 1px solid #2f3132;
->>>>>>> f27d26bde366bd2979820b2783d4cddcec141262
 }
 .submit{
     margin: 20px 0px;
@@ -582,16 +574,13 @@ font-size: 18px;
     background: #0392ce;
     border-color: #ffffff;
 }
-<<<<<<< HEAD
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ffffff;
     border-radius: 4px;
-    resize: vertical;
-  }
-=======
->>>>>>> f27d26bde366bd2979820b2783d4cddcec141262
+}
+
 
 /* footer-bottom-area */
 
