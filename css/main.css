@@ -776,6 +776,7 @@ transition: all 500ms ease;
     margin-top: 20px;
 }
 .static-area ul{
+<<<<<<< HEAD
     list-style-type: none;
     padding: 0px;
     border-left: 1px solid #29a1d4;
@@ -991,6 +992,234 @@ color: #0392ce;
 }
 .post-item-date ul{
     list-style-type: none;
+=======
+    list-style-type: none;
+    padding: 0px;
+    border-left: 1px solid #29a1d4;
+    border-right: 1px solid #29a1d4;
+}
+.static-area ul li{
+    margin: 15px;
+}
+.static-area ul li span{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+}
+.static-area ul li h3{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+/* customer-testimonials */
+
+#customer-testimonials{
+    padding: 80px 0px 0px;
+}
+.testimonials-heading h1{
+    color: #222222;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 0px 0px 16px;
+}
+.border{
+    position: relative;
+    overflow: hidden;
+    background: #f0f0f0;
+    height: 1px;
+    display: block;
+}
+.border:before{
+    width: 100px;
+    height: 1px;
+    position: absolute;
+    top: 0px;
+    background: #0392ce;
+    content: "";
+}
+.testimonial-items{
+    margin: 40px 0px 80px 0px;
+}
+.testimonial-item{
+    width: 95%;
+    height: 275px;
+    margin-right: 15px;
+    border: 1px solid #f0f0f0;
+    background-color: #fcfcfc;
+}
+.testimonial-item-image{
+    margin: 35px 0px;
+}
+.testimonial-item-text p{
+    color: #848484;
+    font-size: 16px;
+    margin: 0px 30px;
+}
+.testimonial-item-info h3{
+    color: #222222;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0px 5px;
+}
+.testimonial-item-info span{
+    color: #0392ce;
+}
+
+/* faqs */
+
+#faqs{
+    margin:80px 0px
+}
+.faqs-heading h1{
+        color: #222222;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 36px;
+        margin: 0 0 16px;
+}
+.border{
+        position: relative;
+        overflow: hidden;
+        background: #f0f0f0;
+        height: 1px;
+        display: block;
+}
+.border:before{
+        width: 100px;
+        height: 1px;
+        position: absolute;
+        top: 0px;
+        background: #0392ce;
+        content: "";
+}
+.faqs-gallery{
+margin-top: 40px;
+}
+.gallery-item{
+width: 170px;
+height: 160px;
+margin: 0px 20px 25px 0px;
+position: relative;
+overflow: hidden;
+}
+.gallery-item img{
+width: 170px;
+height: 160px;
+object-fit: cover;
+}
+.gallery-item-slide{
+background: rgba(0, 0, 0, 0.85);
+width: 170px;
+height: 160px;
+position: absolute;
+top: 160px;
+transition: all .9s ease;
+}
+.gallery-item:hover .gallery-item-slide{
+    top: 0px;
+}
+.faqs-info{
+margin-top: 40px;
+height: 345px;
+}
+.faqs-item{
+width: 90%;
+height: 45px;
+border: 1px solid #f0f0f0;
+margin: 0px 0px 10px 30px;
+}
+.faqs-item ul{
+list-style-type: none;
+padding: 0px;
+}
+.faqs-item ul li{
+margin-left: 10px;
+}
+.faqs-item ul li span{
+padding: 5px 5px;
+color: #c7c7c7;
+}
+.faqs-item ul li h3{
+color: #222222;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin: 0px;
+}
+.faqs-item ul li:hover span{
+color: #0392ce;
+}
+
+/* latest-blog-post */
+
+#latest-blog-post{
+    padding: 80px 0px 80px 0px;
+    background-color: #fcfcfc;
+}
+.latest-blog-heading h1{
+    color: #222222;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: capitalize;
+    margin: 0 0 16px;
+}
+.sec-tittle-border{
+    position: relative;
+    height: 1px;
+    background: #f0f0f0;
+    display: block;
+}
+.sec-tittle-border:before{
+    width: 70px;
+    height: 1px;
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+    color: #0392ce;
+    content: "";
+}
+.latest-blog-post-items{
+    border: 1px solid #f0f0f0;
+    height: 460px;
+    margin-top: 50px;
+    margin-right: 40px;
+    background-color: #ffffff;
+}
+.post-item{
+    width: 90%;
+    height: 90%;
+}
+.post-item-image{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.post-item-image img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.post-item-headline h3{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 15px;
+    color: #222222;
+}
+.post-item-text p{
+    font-weight: 500;
+    color: #333;
+    font-size: 16px;
+}
+.post-item-date ul{
+    list-style-type: none;
+>>>>>>> f27d26bde366bd2979820b2783d4cddcec141262
     margin:20px 0px 0px;
     border-top: 1px solid #f0f0f0;
     padding: 0px;
@@ -1061,7 +1290,11 @@ color: #0392ce;
     margin: 40px 0px 0px;
 }
 .footer-area-text p{
+<<<<<<< HEAD
     color: #ffffff;
+=======
+    color: #848484;
+>>>>>>> f27d26bde366bd2979820b2783d4cddcec141262
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
@@ -1099,7 +1332,11 @@ color: #0392ce;
     margin-bottom: 10px;
 }
 .note span{
+<<<<<<< HEAD
     color: #ffffff;
+=======
+    color: #848484;
+>>>>>>> f27d26bde366bd2979820b2783d4cddcec141262
     font-size: 16px;
     font-weight: 300;
     line-height: 26px;
@@ -1112,6 +1349,7 @@ color: #0392ce;
 }
 .your-taq{
     height: 40px;
+<<<<<<< HEAD
     width: 85%;
 }
 .your-mail{
@@ -1122,6 +1360,21 @@ color: #0392ce;
 .your-message{
     height: 75px;
     width: 85%;
+=======
+    width: 75%;
+    border: 1px solid #2f3132;
+}
+.your-mail{
+    height: 40px;
+    width: 75%;
+    margin: 10px 0px;
+    border: 1px solid #2f3132;
+}
+.your-message{
+    height: 74px;
+    width: 75%;
+    border: 1px solid #2f3132;
+>>>>>>> f27d26bde366bd2979820b2783d4cddcec141262
 }
 .submit{
     margin: 20px 0px;
@@ -1141,6 +1394,7 @@ color: #0392ce;
     background: #0392ce;
     border-color: #ffffff;
 }
+<<<<<<< HEAD
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -1148,6 +1402,8 @@ input[type=text], select, textarea {
     border-radius: 4px;
     resize: vertical;
   }
+=======
+>>>>>>> f27d26bde366bd2979820b2783d4cddcec141262
 
 /* footer-bottom-area */
 
@@ -1155,7 +1411,11 @@ input[type=text], select, textarea {
     background: #1d1d1d;
 }
 .copyright-text p{
+<<<<<<< HEAD
     color: #fff;
+=======
+    color: #949494;
+>>>>>>> f27d26bde366bd2979820b2783d4cddcec141262
     font-size: 14px;
     font-weight: 300;
     line-height: 26px;
@@ -1163,11 +1423,14 @@ input[type=text], select, textarea {
     margin-left: 55px;
 }
 .hospital-click{
+<<<<<<< HEAD
     color:#0392ce;
     font-size: 18px;
     cursor: pointer;
 }
 .hospital-click{
+=======
+>>>>>>> f27d26bde366bd2979820b2783d4cddcec141262
     color: #0392ce;
 }
 .footer-social-link ul{
