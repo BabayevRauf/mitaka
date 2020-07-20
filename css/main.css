@@ -1175,9 +1175,6 @@ input[type=text], select, textarea {
     font-size: 18px;
     cursor: pointer;
 }
-.hospital-click{
-    color: #0392ce;
-}
 .footer-social-link ul{
     list-style-type: none;
 }

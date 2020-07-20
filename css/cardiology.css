@@ -1,4 +1,4 @@
-/* page[dentis] */
+/* page[cardiology] */
 
 /* top-nav-bar */
 
@@ -183,7 +183,7 @@
 
 #elements{
     height: 310px;
-    background: url(../images/d5.jpg) center center no-repeat;
+    background: url(../images/c1.jpg) center center no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -232,7 +232,6 @@
     background: #222222;
 }
 /* department-area */
-
 #department-area{
     margin-bottom: 80px;
 }

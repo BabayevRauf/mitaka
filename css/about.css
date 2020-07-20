@@ -596,6 +596,11 @@ input[type=text], select, textarea {
     margin-top: 20px;
     margin-left: 55px;
 }
+.hospital-click{
+    color:#0392ce;
+    font-size: 18px;
+    cursor: pointer;
+}
 .footer-social-link ul{
     list-style-type: none;
 }
