@@ -33,3 +33,148 @@ font-size: 18px;
 .icons li a:hover{
     color: #0392ce;
 }
+
+/* call-adress */
+
+#hospital-about{
+    background:#ffffff;
+    padding: 28px 0px;
+}
+.call-adress-info{
+    width: 95%;
+}
+.info-one{
+    width: 215px;
+    position: relative;
+}
+.info-one i{
+    color: #0392ce;
+    font-size: 55px;
+    margin-left: 30px;
+}
+.info-one h3{
+    position: absolute;
+    top: 0px;
+    right: 55px;
+    color: #0392ce;
+    font-size: 16px;
+}
+.info-one span{
+    position: absolute;
+    left: 68px;
+    bottom: 5px;
+    color: #848484;
+    font-size: 16px;
+}
+.info-two{
+    width: 255px;
+    position: relative;
+    border-left: 1px solid #f0f0f0;
+    border-right:1px solid #f0f0f0;
+}
+.info-two i{
+    color: #0392ce;
+    font-size: 50px;
+    margin-left: 25px;
+}
+.info-two h3{
+    position: absolute;
+    top: 0px;
+    left: 65px;
+    color: #0392ce;
+    font-size: 16px;
+}
+.info-two span{
+    position: absolute;
+    left: 65px;
+    bottom: 5px;
+    color: #848484;
+    font-size: 16px;
+}
+.info-three{
+    width: 300px;
+    position: relative;
+}
+.info-three i{
+    color: #0392ce;
+    font-size: 45px;
+    margin: 3px 0px 0px 25px;
+}
+.info-three h3{
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    color:#0392ce;
+}
+.info-three span{
+    position: absolute;
+    bottom: 6px;
+    left: 80px;
+    color: #848484;
+}
+.info-three a button{
+    position: absolute;
+    right: -62px;
+    top: 0px;
+    padding: 18px;
+    background: #ffffff;
+    color: #848484;
+    border: 1px solid #f0f0f0;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.info-three a button:hover{
+    color: #fcfcfc;
+    background: #0392ce;
+}
+
+/* menu-bar */
+
+#menu-bar{
+    padding: 15px 0px;
+    background: #ffffff;
+    border-top: 1px solid #f0f0f0;
+}
+.menu-list ul li{
+    list-style-type: none;
+}
+.menu-list ul li a span{
+    color: #0392ce;
+    font-size: 18px;
+}
+.menu-list ul li a{
+    color: #222222;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: all 500ms ease 0s;
+    padding: 31px 0px;
+}
+.menu-list ul li a:hover{
+    color: #0392ce;
+    border-top: 1px solid #0392ce;
+}
+.click-menu{
+    position: absolute;
+    top: -17px;
+    right: 0px;
+    padding: 30px 50px;
+    border: 2px solid #0392ce;
+    background: #0392ce;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.click-menu a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.click-menu:hover {
+    background:#222222;
+    color:#fff;
+}
