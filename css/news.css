@@ -1,4 +1,4 @@
-/* page[neurology] */
+/* page[news] */
 
 /* top-nav-bar */
 
@@ -183,7 +183,7 @@
 
 #elements{
     height: 310px;
-    background: url(../images/n2.jpeg) center center no-repeat;
+    background: url(../images/news2.jpg) center center no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -191,6 +191,7 @@
     position: absolute;
     top: 43%;
     left: 43%;
+    transform: translate(-21%,0%);
 }
 .elements-taq h1{
     color: #0392ce;
@@ -199,12 +200,85 @@
     text-transform: capitalize;
 }
 
+/* news-default */
+.latest-blog-post-items{
+    border: 1px solid #f0f0f0;
+    height: 460px;
+    margin-top: 50px;
+    margin-right: 40px;
+    background-color: #ffffff;
+}
+.post-item{
+    width: 90%;
+    height: 90%;
+}
+.post-item-image{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.post-item-image img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.post-item-headline h3{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 15px;
+    color: #222222;
+}
+.post-item-text p{
+    font-weight: 500;
+    color: #333;
+    font-size: 16px;
+}
+.post-item-date-ul{
+    list-style-type: none;
+    margin:20px 0px 0px;
+    border-top: 1px solid #f0f0f0;
+    padding: 0px;
+}
+.post-item-date-ul li{
+    margin-top: 20px;
+}
+.post-item-date a{
+    margin-right: 10px;
+    text-decoration: none;
+    margin-left: 10px;
+    color: #848484;
+}
+.post-item-date span{
+    margin-left: 6px;
+}
+.post-item-date a:hover{
+    color: #0392ce;
+}
+.post-item-image-slide{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(3, 146, 206, 0.8);
+    transition: all 0.9s ease;
+    position: absolute;
+    top: 200px;
+}
+.post-item:hover .post-item-image-slide{
+    top: 0px;
+}
+.post-item-image-slide span{
+    color: #ffffff;
+    font: 16px;
+    margin-top: 100px;
+}
+
 /* appointment */
 
 #appointment{
     padding: 30px 0px;
-    margin-bottom: 80px;
     background: #0392ce;
+    margin-top: 80px;
 }
 .appointment-text h2{
     color: #ffffff;
@@ -230,212 +304,6 @@
 }
 .appointment-button a:hover{
     background: #222222;
-}
-/* department-area */
-
-#department-area{
-    margin-bottom: 80px;
-}
-.all-department ul{
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-}
-.all-department ul li{
-    border: 1px solid #f0f0f0;
-}
-.department span{
-    position: absolute;
-    right: 10px;
-    top: 20px;
-    color: #ffffff;
-}
-.department h3{
-    background: #0392ce;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 400;
-    text-transform:capitalize;
-    display: block;
-    padding: 17px 20px 16px;
-}
-.department-item h3{
-    color: #848484;
-    font-size: 18px;
-    font-weight: 300;
-    padding: 17px 20px 16px;
-    cursor: pointer;
-    text-transform: capitalize;
-}
-.department-item{
-    position: relative;
-}
-.department-item a span{
-    position: absolute;
-    right: 10px;
-    top: 20px;
-    color: #848484;
-}
-.department-item a{
-    text-decoration: none;
-}
-.department-item:hover h3{
-    color: #0392ce;
-}
-.department-item:hover span{
-    color: #0392ce;
-}
-.department-image{
-    width: 100%;
-    height: 371px;
-    margin-left: 20px;
-}
-.department-image img{
-    width: 100%;
-    height: 371px;
-    object-fit: cover;
-}
-
-/* table */
-.single-box{
-    border: 1px solid #f0f0f0;
-    margin: 0px 20px;
-}
-.single-box h3{
-    font-size: 20px;
-    font-weight: 400;
-    color: #222222;
-    text-align: center;
-    padding: 17px 0 15px;
-    display: block;
-}
-.single-box ul{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-}
-.single-box ul li{
-    border-top: 1px solid #f0f0f0;
-    padding: 14px 20px 12px;
-    font-size: 16px;
-    color: #848484;
-    line-height: 26px;
-    font-weight: 300;
-}
-
-/* doctor-section */
-
-#doctor-section{
-    padding: 80px 0px 80px 0px;
-}
-.heading{
-    padding-bottom: 50px;
-}
-.heading h1{
-    color: #222222;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 36px;
-    text-transform: capitalize;
-    margin: 0px 0px 16px;
-}
-.sec-tittle-border {
-    position: relative;
-    overflow: hidden;
-    height: 1px;
-    background: #f0f0f0;
-    display: block;
-}
-.sec-tittle-border:before {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 70px;
-    height: 1px;
-    background: #0392ce;
-    content: "";
-}
-.doctor-item{
-    position: relative;
-    overflow: hidden;
-}
-.doctor-item img{
-    width: 270px;
-    height: 270px;
-    object-fit: cover;
-}
-.doctor-item-text-name{
-    width: 270px;
-    height: 80px;
-    background-color: #ffffff;
-    position: absolute;
-    bottom:0px;
-    opacity: 1;
-    border: 1px solid #f0f0f0;
-    text-align: center;
-    transition: all 0.9s ease; 
-}
-.doctor-item:hover .doctor-item-text-name{
-    bottom:-80px;
-    opacity: 0;
-}
-.doctor-item-text-name h3{
-    color: #222222;
-    font-size: 20px;
-    font-weight: 400;
-    margin: 10px 0px;
-}
-.doctor-item-text-name span{
-    color: #0392ce;
-    font-size: 16px;
-}
-.doctor-item-call-info{
-    position: absolute;
-    top:-140px;
-    width: 270px;
-    height: 271px;
-    background-color: rgba(0, 0, 0, 0.85);
-    opacity: 0;
-    transition: all 0.9s ease 0.4s;
-}
-.doctor-item:hover .doctor-item-call-info{
-    top: 0px;
-    opacity: 1;
-}
-.slide-item-name{
-    width: 90%;
-    height: 60px;
-}
-.slide-item-call{
-    width: 90%;
-    height: 60px;
-}
-.slide-item-name h3{
-    font-size: 20px;
-    font-weight: 400;
-    color: #ffffff;
-    margin-bottom: 5px;
-}   
-.slide-item-name span{
-    font-size: 20px;
-    font-weight: 400;
-    color: #ffffff;
-}
-.slide-item-call h3{
-    font-size: 20px;
-    font-weight: 400;
-    color: #ffffff;
-}
-.slide-item-call span{
-    font-size: 20px;
-    font-weight: 400;
-    color: #ffffff;
-}
-.slide-item-call i{
-    font-size: 20px;
-    font-weight: 400;
-    color: #ffffff;
-    margin: 30px 10px 0px 0px;
 }
 
 /* footer-area */
@@ -529,7 +397,7 @@
     margin: 10px 0px;
 }
 .your-message{
-    height: 74px;
+    height: 75px;
     width: 85%;
 }
 .your-mail{
@@ -564,8 +432,8 @@ input[type=text], select, textarea {
     padding: 12px;
     border: 1px solid #ffffff;
     border-radius: 4px;
-}
 
+}
 
 /* footer-bottom-area */
 
@@ -573,7 +441,7 @@ input[type=text], select, textarea {
     background: #1d1d1d;
 }
 .copyright-text p{
-    color: #949494;
+    color: #fff;
     font-size: 14px;
     font-weight: 300;
     line-height: 26px;
