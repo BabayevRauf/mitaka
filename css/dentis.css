@@ -8,8 +8,8 @@
     padding: 15px 0px;
 }
 .service-number i{
-color: #0392ce;
-font-size: 18px;
+    color: #0392ce;
+    font-size: 18px;
 }
 .service-number span {
     margin-left: 5px;
@@ -177,4 +177,24 @@ font-size: 18px;
 .click-menu:hover {
     background:#222222;
     color:#fff;
+}
+
+/* dentis */
+
+#dentis{
+    height: 310px;
+    background: url(../images/d5.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.dentis-taq{
+    position: absolute;
+    top: 43%;
+    left: 43%;
+}
+.dentis-taq h1{
+    color: #222222;
+    font-size: 48px;
+    line-height: 50px;
+    text-transform: capitalize;
 }
