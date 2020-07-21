@@ -185,20 +185,17 @@
     height: 310px;
     background: url(../images/news2.jpg) center center no-repeat;
     background-size: cover;
-    position: relative;
 }
 .elements-taq{
-    position: absolute;
-    top: 43%;
-    left: 43%;
-    transform: translate(-21%,0%);
-}
-.elements-taq h1{
-    color: #0392ce;
-    font-size: 48px;
-    line-height: 50px;
-    text-transform: capitalize;
-}
+    padding: 130px;
+    text-align: center;
+ }
+ .elements-taq h1{
+     color: #0392ce;
+     font-size: 48px;
+     line-height: 50px;
+     text-transform: capitalize;
+ }
 
 /* news-default */
 .latest-blog-post-items{

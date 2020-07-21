@@ -185,12 +185,10 @@
     height: 310px;
     background: url(../images/s1.jpg) center center no-repeat;
     background-size: cover;
-    position: relative;
 }
 .elements-taq{
-    position: absolute;
-    top: 43%;
-    left: 43%;
+   padding: 130px;
+   text-align: center;
 }
 .elements-taq h1{
     color: #0392ce;

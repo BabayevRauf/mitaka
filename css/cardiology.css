@@ -185,19 +185,17 @@
     height: 310px;
     background: url(../images/c1.jpg) center center no-repeat;
     background-size: cover;
-    position: relative;
 }
 .elements-taq{
-    position: absolute;
-    top: 43%;
-    left: 43%;
-}
-.elements-taq h1{
-    color: #0392ce;
-    font-size: 48px;
-    line-height: 50px;
-    text-transform: capitalize;
-}
+    padding: 130px;
+    text-align: center;
+ }
+ .elements-taq h1{
+     color: #0392ce;
+     font-size: 48px;
+     line-height: 50px;
+     text-transform: capitalize;
+ }
 
 /* appointment */
 
@@ -572,7 +570,7 @@ input[type=text], select, textarea {
     background: #1d1d1d;
 }
 .copyright-text p{
-    color: #949494;
+    color: #fff;
     font-size: 14px;
     font-weight: 300;
     line-height: 26px;
@@ -588,7 +586,7 @@ input[type=text], select, textarea {
     list-style-type: none;
 }
 .footer-social-link ul li a span{
-    color: #fff;
+    color: #949494;
     padding: 10px;
     font-size: 16px;
     background:#1d1d1d;

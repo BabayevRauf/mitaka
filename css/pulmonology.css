@@ -185,19 +185,17 @@
     height: 310px;
     background: url(../images/pp2.png) center center no-repeat;
     background-size: cover;
-    position: relative;
 }
 .elements-taq{
-    position: absolute;
-    top: 43%;
-    left: 43%;
-}
-.elements-taq h1{
+    padding: 130px;
+    text-align: center;
+ }
+ .elements-taq h1{
     color: #0392ce;
     font-size: 48px;
     line-height: 50px;
     text-transform: capitalize;
-}
+ }
 
 /* appointment */
 
