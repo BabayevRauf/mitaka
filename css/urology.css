@@ -573,7 +573,7 @@ input[type=text], select, textarea {
     background: #1d1d1d;
 }
 .copyright-text p{
-    color: #949494;
+    color: #fff;
     font-size: 14px;
     font-weight: 300;
     line-height: 26px;

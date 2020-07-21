@@ -605,7 +605,7 @@ input[type=text], select, textarea {
     list-style-type: none;
 }
 .footer-social-link ul li a span{
-    color:#949494;
+    color: #fff;
     padding: 10px;
     font-size: 16px;
     background:#1d1d1d;
