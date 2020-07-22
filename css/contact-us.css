@@ -236,13 +236,14 @@
     background: #fcfcfc;
     border: 1px solid #f0f0f0;
     margin-top: 40px;
+    margin-right: 25px;
 }
 input[type="text"],
 input[type="email"],
 input[type="tel"],
 input[type="subject"]{
     padding: 15px 15px;
-    width: 80%;
+    width: 79%;
     margin: 0px 25px 30px;
     background: #ffffff;
     border: 1px solid #ececec;
@@ -260,7 +261,7 @@ input:focus{
     color: #999999;
     font-size: 14px;
     padding: 20px 20px;
-    width: 89%;
+    width: 88%;
     margin: 0px 25px 30px;
     outline: none;
     transition: all 500ms ease;
@@ -287,6 +288,78 @@ input[type="submit"]:hover{
     background: #fff;
     color: #222222;
 }
-
-
-
+.quick-contact{
+    padding: 40px 35px 59px;
+    border: 1px solid #f4f4f4;
+    margin-top: 40px;
+    position: relative;
+    background: #ffffff;
+}
+.tittle{
+    margin-bottom: 25px;
+}
+.tittle h2{
+    color: #222222;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 0 35px;
+    text-transform: capitalize;
+}
+.tittle p{
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+    color: #848484;
+    line-height: 26px;
+    font-weight: 300;
+    margin: 0px;
+}
+.contact-info{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.contact-info li{
+    padding-left: 45px;
+    padding-bottom: 21px;
+    margin-bottom: 20px;
+    position: relative;
+    border-bottom: 1px solid #f4f4f4;
+}
+.icon-holder{
+    position: absolute;
+    top: 3px;
+    left: 0px;
+}
+.icon-holder span{
+    color: #0392ce;
+    font-size: 30px;
+}
+.text-holder{
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;
+    color: #848484;
+}
+.text-holder h5{
+    font-size: 14px;
+}
+.text-holder span{
+    color: #333333;
+    line-height: 30px;
+    font-weight: 600;
+}
+.social-links{
+    margin: 0px;
+    padding: 25px 0px 40px 0px;
+    list-style-type: none;
+}
+.social-links li{
+    margin-right: 25px;
+}
+.social-links li a{
+    color: #999999;
+    font-size: 16px;
+    transition: all 500ms ease;
+}
+.social-links li a:hover{
+    color: #0392ce;
+}
