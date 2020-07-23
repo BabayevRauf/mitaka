@@ -1,0 +1,30 @@
+#fname,#datemin{
+    outline: none;
+    padding: 15px 15px;
+    width: 20%;
+    height: 20px;
+    margin: 20px 20px 0px 20px;
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    font-size: 15px;
+    transition: all 500ms ease;
+    color: #848484;
+}
+#doctor-select{
+    width: 304px;
+    margin: 20px 20px 0px 20px;
+    padding: 15px 15px;
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    font-size: 15px;
+    transition: all 500ms ease;
+    color: #848484;
+    outline: solid;
+}
+.same-as-option{
+    padding: 35px 15px;
+}
+#fname:focus{
+    border-color: #0392ce;
+    border-radius: 5px;
+}
