@@ -153,44 +153,51 @@
   <button class="readmore cursor-pointer">READ MORE</button>
 </div>
   </div>
-
 </section>
 <!-- make-an-appointment -->
 <section id="make-an-appointment">
   <div class="container">
-    <div class="row flex justify-content-between">
-      <div class="col-3">
-        <div class="appointment">
-          <span class="fa fa-calendar" aria-hidden="true"></span>
-          <h3>Make an Appointment</h3>
-        </div>
+      <div class="row flex">
+          <div class="col-3">
+              <div class="appointment">
+               <span class="fa fa-calendar" aria-hidden="true"></span>
+               <h3>Make an Appointment</h3>
+          </div>
       </div>
       <div class="col-9">
-        <div class="container-fluid">
-          <div class="row flex justify-content-between">
-            <div class="col-5">
-              <div class="select-doctor-info flex flex-direction-column justify-content-space-evenly align-items-flex-end">
-                <div class="your-name"></div>
-                <div class="select-doctor"></div>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="select-doctor-info flex flex-direction-column justify-content-space-evenly align-items-flex-end">
-                <div class="select-department"></div>
-              <div class="select-date"></div>
-              </div>
-            </div>
-            <div class="col-1">
-              <div class="click">
-                <a href="#"><span class="fa fa-paper-plane" aria-hidden="true"></span></a>
-              </div>
-            </div>
+          <div class="container-fluid">
+                  <div class="row">
+                      <form action="#">
+                          <input type="text" name="fname" id="app-name" placeholder="your name">
+                          <select name="select" id="select-doctor">
+                              <option value="0">Select-Department</option>
+                              <option value="1">Urology</option>
+                              <option value="2">Dentis</option>
+                              <option value="3">Pulmonology</option>
+                              <option value="4">Cardiology</option>
+                              <option value="5">Neurology</option>
+                          </select>
+                      </form>
+                  </div>
+                  <div class="row">
+                      <form action="#">
+                          <select name="select" id="select-department">
+                          <option value="0">Select-Doctor</option>
+                          <option value="1">Alen Bailey</option>
+                          <option value="2">Marc Parcival</option>
+                          <option value="3">Giles Frankiln</option>
+                          <option value="4">Edgar Denizl</option>
+                          </select>
+                          <input type="date" name="date" id="app-date">
+                   </form>
+                  </div>
+                  <div class="row">
+                      <input type="submit" id="app-submit" value="submit">
+                  </div>
           </div>
-        </div>
       </div>
-    </div>
   </div>
-</section>
+  </section>
 <!-- medical-departments -->
 <section id="medical-departments">
   <div class="container">

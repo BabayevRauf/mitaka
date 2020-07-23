@@ -382,9 +382,8 @@
     transition: all 500ms ease 0s;
 }
 #footer-submit:hover{
-    background: #ffffff;
-    color: #222222;
-    border-color: #0392ce;
+    background: #0392ce;
+    border-color: #fff;
 }
 
 /* footer-bottom-area */
