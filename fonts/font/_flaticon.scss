@@ -1,0 +1,72 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 24/07/2020 10:47
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-neurology:before { content: "\f100"; }
+.flaticon-kidneys:before { content: "\f101"; }
+.flaticon-brain:before { content: "\f102"; }
+.flaticon-kidney:before { content: "\f103"; }
+.flaticon-tooth:before { content: "\f104"; }
+.flaticon-tooth-1:before { content: "\f105"; }
+.flaticon-tooth-2:before { content: "\f106"; }
+.flaticon-heart:before { content: "\f107"; }
+.flaticon-cardiology:before { content: "\f108"; }
+.flaticon-cardiology-1:before { content: "\f109"; }
+.flaticon-cardiology-2:before { content: "\f10a"; }
+.flaticon-mail:before { content: "\f10b"; }
+.flaticon-speech-bubble:before { content: "\f10c"; }
+.flaticon-calendar:before { content: "\f10d"; }
+.flaticon-calendar-1:before { content: "\f10e"; }
+.flaticon-calendar-2:before { content: "\f10f"; }
+    
+    $font-Flaticon-neurology: "\f100";
+    $font-Flaticon-kidneys: "\f101";
+    $font-Flaticon-brain: "\f102";
+    $font-Flaticon-kidney: "\f103";
+    $font-Flaticon-tooth: "\f104";
+    $font-Flaticon-tooth-1: "\f105";
+    $font-Flaticon-tooth-2: "\f106";
+    $font-Flaticon-heart: "\f107";
+    $font-Flaticon-cardiology: "\f108";
+    $font-Flaticon-cardiology-1: "\f109";
+    $font-Flaticon-cardiology-2: "\f10a";
+    $font-Flaticon-mail: "\f10b";
+    $font-Flaticon-speech-bubble: "\f10c";
+    $font-Flaticon-calendar: "\f10d";
+    $font-Flaticon-calendar-1: "\f10e";
+    $font-Flaticon-calendar-2: "\f10f";
