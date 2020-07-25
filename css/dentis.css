@@ -134,6 +134,9 @@
 #menu-bar{
     background: #fcfcfc;
     border-top: 1px solid #f0f0f0;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 .menu-list ul{
     padding: 17px;
