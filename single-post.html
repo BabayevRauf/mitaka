@@ -236,16 +236,12 @@
             <span class="sec-tittle"></span>
           </div>
           <div class="your-data">
-            <div class="your-taq overflow-hidden">
-              <input type="text" id="fname" name="firstname" placeholder="Your name">
-            </div>
-            <div class="your-mail overflow-hidden">
-              <input type="text" id="fname" name="firstname" placeholder="Your Email">
-            </div>
-            <div class="your-message overflow-hidden">
-              <textarea id="subject" name="subject" placeholder="Your Message.." style="height:115px"></textarea>
-            </div>
-            <div class="submit"><a href="#">submit</a></div>
+            <form action="#">
+              <input type="text" id="footer-name" name="fname" placeholder="your name..">
+              <input type="email" id="footer-email" name="email" placeholder="your e-mail..">
+              <textarea name="subject" id="footer-text" placeholder="write message.."></textarea>
+              <input type="submit" id="footer-submit" value="submit">
+            </form>
           </div>
         </div>
       </div>
@@ -256,7 +252,7 @@
 <section id="footer-bottom-area">
   <div class="container">
     <div class="row flex justify-content-between">
-      <div class="col-7">
+      <div class="col-9">
         <div class="copyright-text">
           <p>
             Copyrights © 2020 All Rights Reserved, Powered by
@@ -264,9 +260,9 @@
           </p>
         </div>
       </div>
-      <div class="col-5">
+      <div class="col-3">
         <div class="footer-social-link">
-          <ul class="flex justify-content-space-evenly">
+          <ul class="flex justify-content-between">
             <li>
               <a href="#"><span class="fa fa-facebook" aria-hidden="true"></span></a>
             </li>

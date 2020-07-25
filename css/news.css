@@ -132,11 +132,11 @@
 /* menu-bar */
 
 #menu-bar{
-    padding: 15px 0px;
-    background: #ffffff;
+    background: #fcfcfc;
     border-top: 1px solid #f0f0f0;
 }
-.menu-list ul li{
+.menu-list ul{
+    padding: 17px;
     list-style-type: none;
 }
 .menu-list ul li a span{
@@ -151,17 +151,14 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     transition: all 500ms ease 0s;
-    padding: 31px 0px;
+    padding: 16px 0px 0px;
 }
 .menu-list ul li a:hover{
     color: #0392ce;
     border-top: 1px solid #0392ce;
 }
 .click-menu{
-    position: absolute;
-    top: -17px;
-    right: 0px;
-    padding: 30px 50px;
+    padding: 15px 50px;
     border: 2px solid #0392ce;
     background: #0392ce;
     cursor: pointer;
@@ -460,6 +457,7 @@
 }
 .footer-social-link ul{
     list-style-type: none;
+    padding: 13px 0px;
 }
 .footer-social-link ul li a span{
     color:#949494;
